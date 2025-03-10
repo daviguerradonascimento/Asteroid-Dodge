@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import * as PIXI from 'pixi.js';
 import { gsap } from 'gsap';
 import { PixiPlugin } from 'gsap/PixiPlugin';
-import { Loader } from './Loader';
+import  Loader  from './Loader';
 
 function Application({ config }) {
     const [app, setApp] = useState(null);
