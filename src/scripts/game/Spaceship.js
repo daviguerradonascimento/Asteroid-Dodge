@@ -55,7 +55,6 @@ export class Spaceship {
     collidesWith(asteroid) {
         const spaceshipBounds = this.sprite.getBounds(); // Gets the actual size after scaling
         const asteroidBounds = asteroid.sprite.getBounds();
-
         return (
             spaceshipBounds.x < asteroidBounds.x + asteroidBounds.width &&
             spaceshipBounds.x + spaceshipBounds.width > asteroidBounds.x &&
