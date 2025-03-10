@@ -15,6 +15,9 @@ const AsteroidManager = React.forwardRef(({ container, resources, setAsteroids }
                 asteroidSprite.anchor.set(0.5);
                 asteroidSprite.x = Math.random() * window.innerWidth;
                 asteroidSprite.y = -50;
+                const scale = Math.random() * 1 + 0.5; // Scale between 0.5 and 1.5
+                asteroidSprite.scale.set(scale);
+
                 const asteroidData = { // Create an object with sprite and other properties
                     sprite: asteroidSprite,
                     speedX: (Math.random() - 0.5) * 0.2,
@@ -74,6 +77,8 @@ const AsteroidManager = React.forwardRef(({ container, resources, setAsteroids }
             asteroidSprite.anchor.set(0.5);
             asteroidSprite.x = Math.random() * window.innerWidth;
             asteroidSprite.y = -50;
+            const scale = Math.random() * 1 + 0.5; // Scale between 0.5 and 1.5
+            asteroidSprite.scale.set(scale);
                 const asteroidData = { // Create an object with sprite and other properties
                 sprite: asteroidSprite,
                 speedX: (Math.random() - 0.5) * 0.2,
