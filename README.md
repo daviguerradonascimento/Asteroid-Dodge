@@ -39,11 +39,17 @@ Asteroid Dodge is an arcade-style game where you control a spaceship, dodging a 
     ```bash
     npm install
     ```
+    
+4.  **Run the build:**
 
-4.  **Run the development server:**
+```bash
+npm run build
+```
+
+5.  **Run the development server:**
 
     ```bash
-    npm start
+    npm run start
     ```
 
 ## Gameplay:
