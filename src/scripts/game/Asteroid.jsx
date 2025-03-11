@@ -32,29 +32,6 @@ const Asteroid = ({ resources }) => {
         speedYRef.current = Math.random() * 2 + 3;
     };
 
-    const update = (delta, speed) => {
-        if (!spriteRef.current) return;
-
-        spriteRef.current.x += speedXRef.current * delta * 100;
-        spriteRef.current.y += speedYRef.current * delta * speed;
-        spriteRef.current.rotation += rotationSpeedRef.current * delta;
-
-        if (spriteRef.current.x < 0 || spriteRef.current.x > window.innerWidth) {
-            speedXRef.current = -speedXRef.current;
-        }
-
-        if (spriteRef.current.y > window.innerHeight + 50) {
-            resetPosition(spriteRef.current);
-        }
-    };
-
-    const destroy = () => {
-        if (spriteRef.current && spriteRef.current.parent) {
-            spriteRef.current.parent.removeChild(spriteRef.current);
-        }
-        spriteRef.current = null;
-    };
-
     return null; // This component doesn't render anything directly
 };
 
