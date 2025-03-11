@@ -25,7 +25,7 @@ Asteroid Dodge is an arcade-style game where you control a spaceship, dodging a 
 1.  **Clone the repository:**
 
     ```bash
-    git clone https://github.com/DaviGuerra/asteroid-dodge.git
+    git clone https://github.com/daviguerradonascimento/asteroid-dodge.git
     ```
 
 2.  **Navigate to the project folder:**
@@ -42,9 +42,9 @@ Asteroid Dodge is an arcade-style game where you control a spaceship, dodging a 
     
 4.  **Run the build:**
 
-```bash
-npm run build
-```
+    ```bash
+    npm run build
+    ```
 
 5.  **Run the development server:**
 
