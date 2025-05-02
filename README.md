@@ -1,4 +1,5 @@
 # Asteroid Dodge
+![asteroid_dodge](https://github.com/user-attachments/assets/ab403a89-79f2-422b-adeb-5bf1753e3300)
 
 ## Project Overview:
 
